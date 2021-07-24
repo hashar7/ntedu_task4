@@ -9,7 +9,7 @@ public class DateCalendarGeneratorTest {
     @Test
     void VeryOldDateTest() {
         assertEquals("DateCalendarGenerator{date=12.12.1234 10:10, calendar=12.12.1234 10:10}",
-                new DateCalendarGenerator("123 12 12 23 00").toString());
+                new DateCalendarGenerator("1234 12 12 10 10").toString());
     }
 
     @Test
